@@ -53,7 +53,7 @@ $name=$email=$website=$comment=$gender="";
      
 ?>
 
-<h3>Your Input is : </h3>
+
 
 </body>
 </html>
