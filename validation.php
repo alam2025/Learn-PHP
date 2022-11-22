@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation</title>
+   
 </head>
 <body>
     <h2>Validation Form</h2>
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-        Name : <input type="text" name="name" id=""><br><br>
+        Name : <input type="text" name="name" id="">
+        <br><br>
         E-mail : <input type="email" name="email" id=""><br><br>
         Website : <input type="text" name="website" id=""><br><br>
         Comment : <textarea name="comment" id="" cols="40" rows="5"></textarea><br><br>
@@ -50,5 +52,8 @@ $name=$email=$website=$comment=$gender="";
     echo $gender."<br>";
      
 ?>
+
+<h3>Your Input is : </h3>
+
 </body>
 </html>
