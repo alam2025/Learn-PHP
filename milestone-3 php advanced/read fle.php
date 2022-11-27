@@ -1,0 +1,1 @@
+<?php echo readfile("New Text Document.txt"); ?>
